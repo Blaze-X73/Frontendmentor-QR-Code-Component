@@ -21,11 +21,13 @@ body{
 .card{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     background: var(--white);
     width: 15rem;
     border-radius: 1rem;
     padding: 0.8rem;
+    box-shadow: 0 0 2rem #00000015;
 }
 
 .qrcode{
@@ -47,4 +49,5 @@ p{
     font-size: 0.9375rem;
     font-weight: 400;
     color: var(--slate500);
+    margin: 0 0 1rem 0;
 }
