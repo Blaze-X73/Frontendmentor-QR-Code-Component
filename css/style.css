@@ -7,6 +7,7 @@
     --slate300: #d6e2f0;
     --slate500: #68778d;
     --slate900: #1f3251;
+    --shadow: #00000015;
 }
 
 body{
@@ -28,11 +29,11 @@ body{
     width: 15rem;
     border-radius: 1rem;
     padding: clamp( 0.2rem, 3vw, 0.8rem);
-    box-shadow: 0 0 2rem #00000015;
+    box-shadow: 0 0 2rem var(--shadow);
 }
 
 .qrcode{
-    width: 15rem;
+    width: 16rem;
     border-radius: 0.5rem;
 }
 
@@ -41,13 +42,13 @@ h1, p{
 }
 
 h1{
-    font-size: 1.2rem;
+    font-size: clamp(1rem, 0.9rem + 0.6vw, 1.2rem);
     font-weight: 700;
     color: var(--slate900);
 }
 
 p{
-    font-size: 0.9375rem;
+    font-size: clamp(0.875rem, 0.84rem +0.2vw, 0.9375rem);
     font-weight: 400;
     color: var(--slate500);
     margin: 0 0 1rem 0;
