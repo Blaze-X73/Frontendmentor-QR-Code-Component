@@ -26,7 +26,7 @@ body{
     justify-content: center;
     align-items: center;
     background: var(--white);
-    width: 15rem;
+    width: 16rem;
     border-radius: 1rem;
     padding: clamp( 0.2rem, 3vw, 0.8rem);
     box-shadow: 0 0 2rem var(--shadow);
