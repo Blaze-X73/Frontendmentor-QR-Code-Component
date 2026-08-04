@@ -27,7 +27,7 @@ body{
     background: var(--white);
     width: 15rem;
     border-radius: 1rem;
-    padding: 0.8rem;
+    padding: clamp( 0.2rem, 3vw, 0.8rem);
     box-shadow: 0 0 2rem #00000015;
 }
 
