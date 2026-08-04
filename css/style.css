@@ -16,3 +16,34 @@ body{
     min-height: 100vh;
     background: var(--slate300);
 }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: var(--white);
+    width: 15rem;
+    border-radius: 1rem;
+    padding: 0.8rem;
+}
+
+.qrcode{
+    width: 15rem;
+    border-radius: 0.5rem;
+}
+
+h1, p{
+    text-align: center;
+}
+
+h1{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--slate900);
+}
+
+p{
+    font-size: 0.9375rem;
+    font-weight: 400;
+    color: var(--slate500);
+}
