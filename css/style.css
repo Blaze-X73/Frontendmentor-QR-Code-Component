@@ -51,5 +51,5 @@ p{
     font-size: clamp(0.875rem, 0.84rem + 0.2vw, 0.9375rem);
     font-weight: 400;
     color: var(--slate500);
-    margin: 0 0 1rem 0;
+    margin: 0 0 clamp(0.8rem, 0.8rem + 5%, 1rem) 0;
 }
